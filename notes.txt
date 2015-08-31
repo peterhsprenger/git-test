@@ -28,5 +28,6 @@ clear löscht die bisherigen Befehle von der Konsole
 
 UNDO
 To replace a single file with an older version use 
-"git checkout hash filename"
-To undo an entire commit, "git revert hash"
+"git checkout hash filename". The file ist now the head and last version. The old version before is still in the timeline
+To undo an entire commit, "git revert hash". Even then: all the older stuff is still in the log. 
+"git reset" really DELETES versions and drops the files from your log - handle with care. Type "git reset hash --mode". Modes are HARD (completely drops all tracked changes SINCE the specified commit hash), MIXED (drops changes from repository and staging, but leaves them in working directory), SOFT (drops changes from repo, leaves them in staging and working directory).
