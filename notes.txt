@@ -19,3 +19,7 @@
 To compare the differences between two files type "git diff hash1 hash2", by copying the hash-information ("ID") of the log output. 
 
 "git merge branch_name" merges changes of one branch into the other. Make the merge from that directory, to (!) where the merge has to be adapted. When you merge two different versions of a file conflicts may occur, that git automatically shows. The merge is only possible when you fix them. Then save and commit the file. 
+
+GO BACK IN TIME
+To call a version of the past work you have to checkout with the hash of that version. checkout creates a HEAD-signal to point to the requested version, whether it is a directory or a specific file. With checkout hash we "visit" an older commit.
+"git checkout ee48e26" calls the version with this hash and moves it in to the working directory. If you open it, you will see the file as it was in this version. If you checkout again to master, you get back the final version again. 
