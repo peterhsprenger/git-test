@@ -7,3 +7,5 @@ git status tells us the state of our working directory
 git branch shows the branches of a repository. git branch shows all branches. 
 To add a new branch, use git branch name_of_branch
 
+git diff shows the detailed differences between two or more committed versions of a file. To show differences of selected file versions type git diff and the hashes of both: git diff hash1 hash2
+
