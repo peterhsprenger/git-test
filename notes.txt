@@ -7,6 +7,7 @@
 
 "git commit" saves a version to the repository. Now the file is in version control
 "git commit -a" adds the file to the staging directory and at the same time makes the commit.
+"git commit -a -m "message" adds and commits the file together with the necessary commit message
 
 "git branch" shows the branches within the working directory
 "git branch filename" creates a new branch
