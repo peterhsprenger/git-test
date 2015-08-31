@@ -1,0 +1,6 @@
+This is a test document
+
+git init is used to create a repository
+
+git status tells us the state of our working directory
+
