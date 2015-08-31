@@ -4,7 +4,6 @@ git init is used to create a repository
 
 git status tells us the state of our working directory
 
-Trying to change the doc to see what's happening
+git branch shows the branches of a repository. git branch shows all branches. 
+To add a new branch, use git branch name_of_branch
 
-
-git log other chaange
