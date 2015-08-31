@@ -5,3 +5,6 @@ git init is used to create a repository
 git status tells us the state of our working directory
 
 Trying to change the doc to see what's happening
+
+
+git log other chaange
