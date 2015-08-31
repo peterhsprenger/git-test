@@ -16,3 +16,5 @@
 
 "git diff" shows the differences in detail between the files in the repository.
 To compare the differences between two files type "git diff hash1 hash2", by copying the hash-information ("ID") of the log output. 
+
+"git merge branch_name" merges changes of one branch into the other. Make the merge from that directory, to (!) where the merge has to be adapted. When you merge two different versions of a file conflicts may occur, that git automatically shows. The merge is only possible when you fix them. Then save and commit the file. 
