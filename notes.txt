@@ -1,10 +1,20 @@
-This is a test document
+"git init" is used to create a repository
 
-git init is used to create a repository
+"git status" tells us the state of our working directory
 
-git status tells us the state of our working directory
+"git add ." adds all files in the working directory to the staging directory. 
+"git add filename" adds this specific file to the staging directory.
 
-Trying to change the doc to see what's happening
+"git commit" saves a version to the repository. Now the file is in version control
+"git commit -a" adds the file to the staging directory and at the same time makes the commit.
 
+"git branch" shows the branches within the working directory
+"git branch filename" creates a new branch
 
-git log other chaange
+"git log" shows the changes of the files in the repository and all versions. 
+"git log --oneline" shows a short version of this log
+
+"git diff" shows the differences in detail between the files in the repository.
+To compare the differences between two files type "git diff hash1 hash2", by copying the hash-information ("ID") of the log output. 
+
+ 
